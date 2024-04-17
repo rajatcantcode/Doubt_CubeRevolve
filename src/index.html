@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated galaxy</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id ="background"></div>
+      <div class="nav">
+        <h3>about</h3>
+        <h3>moreInfo</h3>
+        <h3>gettingStarted</h3>
+        <h3>usedBy</h3>
+        <h3>wikis</h3>
+        <h3>more</h3>
+      </div>
+      <div class="canvas">
+        <canvas class="webgl"></canvas>
+      </div>
+    </div>
+    <!-- Include p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <!-- Include Vanta.js library for topology effect -->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
